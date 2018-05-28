@@ -21,11 +21,11 @@
 	<!-- animate -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
+	<!-- aos -->
+	<link rel="stylesheet" href="assets/css/aos.css" />
+
 	<!-- hover css -->
 	<link rel="stylesheet" href="assets/css/hover-min.css" >
-
-	<!-- Google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Patua+One" rel="stylesheet">
 </head>
 <body>
 
@@ -53,7 +53,7 @@
 			<div class="main row mt-5">
 				<div class="col-lg-12 col-sm-12 col-md-12 mt-5">
 					<div class="main col-lg-10 col-sm-12 col-md-10 offset-lg-2">
-						<h1 class="hello display-1 font-weight-bold wow fadeInLeft" data-wow-duration="1s">Hello<strong class="dot">.</strong></h1>
+						<h1 class="hello display-1 font-weight-bold wow fadeInLeft" data-wow-duration="1s">Hello.</h1>
 						<p class="name lead">I'm <strong class="ronr">Ron Ramos</strong>, a full-stack web developer.</p>
 						<hr class="my-4">
 						<button type="button" class="headbtn button hvr-grow"><a class="nav-link" href="#works">See more:</a></button>
@@ -68,46 +68,44 @@
 			<div id="works" class="works row">
 				<div class="works col-lg-12 col-sm-12 col-md-12">
 					<div class="row">
-						<div class="col-lg-8 col-sm-12 col-md-12 offset-lg-2 my-4" data-wow-duration="3s">
+						<div class="col-lg-8 col-sm-12 col-md-8 offset-lg-2 my-4" data-wow-duration="3s">
 							<div class="media">
-								<div class="row">
-									<div class="col-lg-6 col-sm-12 col-md-6 my-4">
-										<img class="mr-3 img-fluid content-image button hvr-grow wow fadeInLeft" src="assets/images/bg.jpg" alt="Generic placeholder image">
-									</div>
-									<div class="col-lg-6 col-sm-12 col-md-6 my-4">
-				  						<div class="media-body wow fadeInRight">
-					   						<h5 class="mt-0"><strong>Media heading</strong></h5>
-					    					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-				  						</div>
-				  					</div>
-				  				</div>
+								<img class="mr-3 img-fluid content-image button hvr-grow wow fadeInLeft" src="assets/images/bg.jpg" alt="Generic placeholder image">
+		  						<div class="media-body wow fadeInRight">
+			   						<h5 class="mt-0"><strong>Media heading</strong></h5>
+			    					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+		  						</div>
+							</div>
+						</div>
+
+						<div class="col-lg-8 col-sm-12 col-md-8 offset-lg-2 my-4" data-wow-duration="3s">
+							<div class="media">
+								<img class="mr-3 img-fluid content-image button hvr-grow wow fadeInLeft" src="assets/images/bg.jpg" alt="Generic placeholder image">
+		  						<div class="media-body wow fadeInRight">
+			   						<h5 class="mt-0"><strong>Media heading</strong></h5>
+			    					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+		  						</div>
 							</div>
 						</div>
 
 
-						<div class="col-lg-8 col-sm-12 col-md-12 offset-lg-2 my-4" data-wow-duration="3s">
+						<div class="col-lg-8 col-sm-12 col-md-8 offset-lg-2 my-4" data-wow-duration="3s">
 							<div class="media">
-								<div class="row">
-									<div class="col-lg-6 col-sm-12 col-md-6 my-4">
-										<img class="mr-3 img-fluid content-image button hvr-grow wow fadeInLeft" src="assets/images/bg.jpg" alt="Generic placeholder image">
-									</div>
-									<div class="col-lg-6 col-sm-12 col-md-6 my-4">
-				  						<div class="media-body wow fadeInRight">
-					   						<h5 class="mt-0"><strong>Media heading</strong></h5>
-					    					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-				  						</div>
-				  					</div>
-				  				</div>
+								<img class="mr-3 img-fluid content-image button hvr-grow wow fadeInLeft" src="assets/images/bg.jpg" alt="Generic placeholder image">
+		  						<div class="media-body wow fadeInRight">
+			   						<h5 class="mt-0"><strong>Media heading</strong></h5>
+			    					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+		  						</div>
 							</div>
 						</div>
 
-						<div class="col-lg-8 col-sm-12 col-md-12 offset-lg-2 my-4" data-wow-duration="3s">
+						<div class="col-lg-8 col-sm-12 col-md-8 offset-lg-2 my-4" data-wow-duration="3s">
 							<div class="media">
 								<div class="row">
-									<div class="col-lg-6 col-sm-12 col-md-6 my-4">
+									<div class="col-lg-6 col-sm-12 col-md-5 my-4">
 										<img class="mr-3 img-fluid content-image button hvr-grow wow fadeInLeft" src="assets/images/bg.jpg" alt="Generic placeholder image">
 									</div>
-									<div class="col-lg-6 col-sm-12 col-md-6 my-4">
+									<div class="col-lg-6 col-sm-12 col-md-5 my-4">
 				  						<div class="media-body wow fadeInRight">
 					   						<h5 class="mt-0"><strong>Media heading</strong></h5>
 					    					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
@@ -134,23 +132,19 @@
 								<h4>Skills:</h4>
 								<ul class="list-group">
 							     	<li><i class="fab fa-html5"></i> HTML</li>
-							      	<li><i class="fab fa-css3"></i> CSS</li>
+							      	<li><i class="fab fa-css3"></i>CSS</li>
 							      	<li>Bootstrap</li>
-							      	<li><i class="fab fa-js-square"></i> Javascript</li>
-							      	<li><i class="fab fa-php"></i> PHP (soon)</li>
-							      	<li>MySQL (soon)</li>
+							      	<li>Javascript</li>
 						   		</ul>
 					   		</span>
 						</div>
 						<div class="aboutme col-lg-5 col-md-5 col-sm-12 my-3">
 							<h4>Tools:</h4>
 							<ul>
-								<li><i class="fab fa-github"></i> Github</li>
-								<li><i class="fab fa-gitlab"></i> Gitlab</li>
-								<li>Gitbash</li>
 								<li>Sublime Text</li>
 								<li>Adobe Photoshop</li>
-								<li>Adobe Illustrator</li>
+								<li>Github</li>
+								<li>Gitlab</li>
 							</ul>
 						</div>
 
@@ -200,6 +194,9 @@
     <script>
     new WOW().init();
     </script>
+
+	<!-- aos js -->
+	<script src="assets/js/aos.js"></script>
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

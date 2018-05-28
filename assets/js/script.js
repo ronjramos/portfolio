@@ -13,7 +13,7 @@ var main = document.getElementsByTagName("main")[0];
  * and you display dynamic content which can contain small
  * amount of content.
  */
-main.style.minHeight = "1000px";
+main.style.minHeight = "900px";
 
 // You can choose whatever element is on top of your page
 initializeParallaxHeader(main, document.getElementsByTagName("header")[0]);
