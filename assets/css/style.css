@@ -131,12 +131,16 @@ main {
 
 header {
   background: #ffffff url(../images/bg7.jpg) 100% 100% no-repeat;
-  background-size: cover;
   min-height:100vh;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
 }
 
 footer {
-  background: #f4f4f4;
+  background: rgb(207,199,192);
   color:#333;
 }
 
